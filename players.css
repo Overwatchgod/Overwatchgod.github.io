@@ -1,0 +1,58 @@
+.paragraph
+{
+	text-align:center;
+	Font-size:90px;
+	color:white;
+}
+
+* 
+{
+	box-sizing: border-box;
+}
+
+.playerimage 
+{
+	position:relative;
+	float: left;
+	width: 25%;
+	padding: 5px;
+	margin-top:10px;
+	border:1px solid lightgrey;
+	background-color:black;
+}
+
+
+.player::after 
+{
+	display:block;
+	clear: both;
+	display: table;
+}
+
+.overlay 
+{
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	background-color:#FA9C1D;
+	overflow: hidden;
+	width: 50%;
+	height:0;
+	transition:0.3s;
+}
+
+.playerimage:hover .overlay 
+{
+	bottom: 0;
+	height: 100%;
+}
+
+.text 
+{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
