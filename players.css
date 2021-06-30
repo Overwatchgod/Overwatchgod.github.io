@@ -13,9 +13,9 @@
 .playerimage 
 {
 	position:relative;
-	float: left;
-	width: 25%;
-	padding: 5px;
+	float:left;
+	width:25%;
+	padding:5px;
 	margin-top:10px;
 	border:1px solid lightgrey;
 	background-color:black;
@@ -25,34 +25,93 @@
 .player::after 
 {
 	display:block;
-	clear: both;
-	display: table;
+	display:table;
 }
 
 .overlay 
 {
-	position: absolute;
-	bottom: 100%;
-	left: 0;
-	right: 0;
+	position:absolute;
+	bottom:50%;
 	background-color:#FA9C1D;
-	overflow: hidden;
-	width: 50%;
+	overflow:hidden;
+	left:0;
+	width:50%;
 	height:0;
 	transition:0.3s;
 }
 
 .playerimage:hover .overlay 
 {
-	bottom: 0;
-	height: 100%;
+	bottom:0;
+	height:100%;
 }
 
 .text 
 {
-	color: white;
-	font-size: 20px;
-	position: absolute;
-	top: 50%;
-	left: 40%;
+	color:white;
+	font-size:35px;
+	position:relative;
+	top:45%;
+	left:33%;
+}
+
+.image
+{
+	margin-left:40%;
+	margin-right:40%;
+	width:20%;
+	background-color:black;
+	border:1px solid lightgrey;
+}
+
+#table
+{
+	border-collapse:collapse;
+	width:100%;
+	margin-top:10px;
+
+}
+
+
+#table td, #table th 
+{
+	border: 1px solid lightgrey;
+	padding: 10px;
+}
+
+#table th 
+{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align:center;
+	background-color:black;
+	color:white;
+}
+
+#table td
+{
+	color:black;
+	background:lightgrey;
+	border:1px solid black;
+	text-align:center;
+}
+
+
+
+.playerstext
+{
+	text-align:center;
+	color:white;
+	font-family:arial;
+	font-size:20px;
+	margin:10px;
+}
+
+.playerslink
+{
+	color:white;
+	margin-left:45%;
+	font-family:arial;
+	font-size:20px;	
+	font-size:20px;	
 }
