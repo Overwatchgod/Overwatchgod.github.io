@@ -1,0 +1,107 @@
+.paragraph
+{
+	text-align:center;
+	Font-size:90px;
+	color:white;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#table
+{
+	border-collapse:collapse;
+	width:100%;
+}
+
+
+#table td, #table th 
+{
+	border:1px solid lightgrey;
+	padding:10px;
+}
+
+#table th 
+{
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:center;
+	background-color:black;
+	color:white;
+	font-size:28px;
+}
+
+#table td
+{
+	color:black;
+	background:lightgrey;
+	border:1px solid black;
+	text-align:center;
+}
+
+.uppertext
+{
+	text-align:center;
+	font-size:40px;
+	color:white;
+}
+
+.rank
+{
+	width:10%;
+}
+
+.image
+{
+	width:50px;
+	height:35px;
+}
+
+.text
+{
+	font-size:28px;
+	color:white;
+	margin-top:10px;
+	text-align:center;
+}
+
+.spoiler2018
+{
+	position:absolute;
+	background-color:white;
+	margin-left:33.5%;
+	margin-right:33.5%;
+}
+
+.spoiler2:hover
+{
+	background-color:#4A4C4E;
+}
+
+.spoiler2019
+{
+	position:absolute;
+	background-color:white;
+	margin-left:32.5%;
+	margin-right:32.5%;
+}
+
+.spoiler2020
+{
+	position:absolute;
+	background-color:white;
+	margin-left:34%;
+	margin-right:34%;
+}
+
+.spoiler2021
+{
+	position:absolute;
+	background-color:white;
+	margin-left:41%;
+	margin-right:41%;
+}
+
+.spoiler2:hover
+{
+	background-color:#4A4C4E;
+}
